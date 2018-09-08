@@ -6,7 +6,7 @@ set(cparse_core_src
 )
 
 set(cparse_src
-    ${cmake_core_src} builtin-features.cpp
+    ${cparse_core_src} builtin-features.cpp
 )
 
 add_library(cparse ${cparse_src})
