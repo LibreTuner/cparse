@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.11)
 project(cparse)
 
+set(CMAKE_CXX_STANDARD 11)
+
 set(cparse_core_src
     shunting-yard.cpp packToken.cpp functions.cpp containers.cpp
 )
